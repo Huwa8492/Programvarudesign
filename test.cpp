@@ -6,5 +6,3 @@ int main() {
     cout << "Hejsan";
     return 0;
 }
-
-
