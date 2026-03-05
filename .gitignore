@@ -1,0 +1,35 @@
+# =========================
+# Operativsystem (macOS & Windows)
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Visual Studio (De andras miljö)
+# =========================
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.db
+*.opendb
+*.sqlite
+
+# =========================
+# Visual Studio Code (Din miljö)
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# =========================
+# Byggfiler och paket (Om ni kör C# / .NET)
+# =========================
+bin/
+obj/
+TestResults/
+*.log
