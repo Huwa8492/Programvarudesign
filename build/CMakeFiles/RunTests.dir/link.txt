@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/RunTests.dir/InteractWithObjectTests.cpp.o -o RunTests  libGameEngineLib.a lib/libgtest_main.a lib/libgtest.a
