@@ -1,5 +1,0 @@
-if(EXISTS "C:/Users/rebec/Documents/Skola/Programvarudesign/Programvarudesign/out/build/x64-Debug/RunTests[1]_tests.cmake")
-  include("C:/Users/rebec/Documents/Skola/Programvarudesign/Programvarudesign/out/build/x64-Debug/RunTests[1]_tests.cmake")
-else()
-  add_test(RunTests_NOT_BUILT RunTests_NOT_BUILT)
-endif()
