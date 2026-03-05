@@ -1,0 +1,5 @@
+if(EXISTS "/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/build/RunTests[1]_tests.cmake")
+  include("/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/build/RunTests[1]_tests.cmake")
+else()
+  add_test(RunTests_NOT_BUILT RunTests_NOT_BUILT)
+endif()
