@@ -25,6 +25,12 @@
 },
 {
   "directory": "/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++14 -arch arm64 -o CMakeFiles/GameEngineLib.dir/Game.cpp.o -c /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Game.cpp",
+  "file": "/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Game.cpp",
+  "output": "CMakeFiles/GameEngineLib.dir/Game.cpp.o"
+},
+{
+  "directory": "/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/build",
   "command": "/usr/bin/clang++  -isystem /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/build/_deps/googletest-src/googletest/include -isystem /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/build/_deps/googletest-src/googletest -g -std=gnu++14 -arch arm64 -o CMakeFiles/RunTests.dir/InteractWithObjectTests.cpp.o -c /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/InteractWithObjectTests.cpp",
   "file": "/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/InteractWithObjectTests.cpp",
   "output": "CMakeFiles/RunTests.dir/InteractWithObjectTests.cpp.o"

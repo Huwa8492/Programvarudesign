@@ -846,4 +846,5 @@ CMakeFiles/RunTests.dir/InteractWithObjectTests.cpp.o: \
   /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Scene.hpp \
   /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/GameObject.hpp \
   /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/InteractionType.hpp \
-  /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Interactions.hpp
+  /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Interactions.hpp \
+  /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Game.hpp

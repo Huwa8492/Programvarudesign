@@ -4,6 +4,7 @@
 #include "Scene.hpp"
 #include "GameObject.hpp"
 #include "Interactions.hpp"
+#include "Game.hpp"
 
 using namespace GameEngine;
 
@@ -11,6 +12,7 @@ class InteractWithObjectTests : public ::testing::Test {
 protected:
     std::shared_ptr<Scene> testScene;
     std::shared_ptr<GameObject> testObject;
+    std::unique_ptr<Game> game;
     std::unique_ptr<InteractWithObjectController> controller;
 
     void SetUp() override {
@@ -22,11 +24,14 @@ protected:
         testObject->addInteraction("Look", std::make_shared<Look>());
 
         testScene->addObject(testObject);
-        controller = std::make_unique<InteractWithObjectController>(testScene);
+
+        game = std::make_unique<Game>(testScene);
+        controller = game->startUseCase("InteractWithObject");
     }
 
     void TearDown() override {
         controller.reset();
+        game.reset();
         testObject.reset();
         testScene.reset();
     }

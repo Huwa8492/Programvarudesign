@@ -19,6 +19,7 @@ add_library(GameEngineLib
     Scene.cpp
     Interactions.cpp
     InteractWithObjectController.cpp
+    Game.cpp
 )
 
 

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GameEngineLib.dir/Game.cpp.o"
+  "CMakeFiles/GameEngineLib.dir/Game.cpp.o.d"
   "CMakeFiles/GameEngineLib.dir/GameObject.cpp.o"
   "CMakeFiles/GameEngineLib.dir/GameObject.cpp.o.d"
   "CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.o"

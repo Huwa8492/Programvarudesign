@@ -128,12 +128,27 @@ CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/InteractWithObjectController.cpp -o CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.s
 
+CMakeFiles/GameEngineLib.dir/Game.cpp.o: CMakeFiles/GameEngineLib.dir/flags.make
+CMakeFiles/GameEngineLib.dir/Game.cpp.o: /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Game.cpp
+CMakeFiles/GameEngineLib.dir/Game.cpp.o: CMakeFiles/GameEngineLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GameEngineLib.dir/Game.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameEngineLib.dir/Game.cpp.o -MF CMakeFiles/GameEngineLib.dir/Game.cpp.o.d -o CMakeFiles/GameEngineLib.dir/Game.cpp.o -c /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Game.cpp
+
+CMakeFiles/GameEngineLib.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameEngineLib.dir/Game.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Game.cpp > CMakeFiles/GameEngineLib.dir/Game.cpp.i
+
+CMakeFiles/GameEngineLib.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameEngineLib.dir/Game.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Game.cpp -o CMakeFiles/GameEngineLib.dir/Game.cpp.s
+
 # Object files for target GameEngineLib
 GameEngineLib_OBJECTS = \
 "CMakeFiles/GameEngineLib.dir/GameObject.cpp.o" \
 "CMakeFiles/GameEngineLib.dir/Scene.cpp.o" \
 "CMakeFiles/GameEngineLib.dir/Interactions.cpp.o" \
-"CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.o"
+"CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.o" \
+"CMakeFiles/GameEngineLib.dir/Game.cpp.o"
 
 # External object files for target GameEngineLib
 GameEngineLib_EXTERNAL_OBJECTS =
@@ -142,9 +157,10 @@ libGameEngineLib.a: CMakeFiles/GameEngineLib.dir/GameObject.cpp.o
 libGameEngineLib.a: CMakeFiles/GameEngineLib.dir/Scene.cpp.o
 libGameEngineLib.a: CMakeFiles/GameEngineLib.dir/Interactions.cpp.o
 libGameEngineLib.a: CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.o
+libGameEngineLib.a: CMakeFiles/GameEngineLib.dir/Game.cpp.o
 libGameEngineLib.a: CMakeFiles/GameEngineLib.dir/build.make
 libGameEngineLib.a: CMakeFiles/GameEngineLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libGameEngineLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libGameEngineLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/GameEngineLib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameEngineLib.dir/link.txt --verbose=$(VERBOSE)
 

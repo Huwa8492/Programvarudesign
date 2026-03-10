@@ -9,42 +9,42 @@
         {
           "name": "SelectGameObject_Positive_ObjectExists_ReturnsTrue",
           "file": "\/Users\/hugowaldem\/Documents\/Programvarudesign\/Programvarudesign\/InteractWithObjectTests.cpp",
-          "line": 35
+          "line": 40
         },
         {
           "name": "SelectGameObject_Negative_ObjectMissing_ReturnsFalse",
           "file": "\/Users\/hugowaldem\/Documents\/Programvarudesign\/Programvarudesign\/InteractWithObjectTests.cpp",
-          "line": 41
+          "line": 46
         },
         {
           "name": "SelectInteraction_Positive_ValidInteraction_ReturnsTrue",
           "file": "\/Users\/hugowaldem\/Documents\/Programvarudesign\/Programvarudesign\/InteractWithObjectTests.cpp",
-          "line": 47
+          "line": 52
         },
         {
           "name": "SelectInteraction_Negative_InvalidInteraction_ReturnsFalse",
           "file": "\/Users\/hugowaldem\/Documents\/Programvarudesign\/Programvarudesign\/InteractWithObjectTests.cpp",
-          "line": 55
+          "line": 60
         },
         {
           "name": "SetInteractionOptions_Positive_WithSelectedInteraction_ReturnsTrue",
           "file": "\/Users\/hugowaldem\/Documents\/Programvarudesign\/Programvarudesign\/InteractWithObjectTests.cpp",
-          "line": 63
+          "line": 68
         },
         {
           "name": "SetInteractionOptions_Negative_NoInteractionSelected_ReturnsFalse",
           "file": "\/Users\/hugowaldem\/Documents\/Programvarudesign\/Programvarudesign\/InteractWithObjectTests.cpp",
-          "line": 73
+          "line": 78
         },
         {
           "name": "StartInteraction_Positive_TurnOnAndLook_ChangesState",
           "file": "\/Users\/hugowaldem\/Documents\/Programvarudesign\/Programvarudesign\/InteractWithObjectTests.cpp",
-          "line": 80
+          "line": 85
         },
         {
           "name": "StartInteraction_Negative_NoTargetSelected_ThrowsException",
           "file": "\/Users\/hugowaldem\/Documents\/Programvarudesign\/Programvarudesign\/InteractWithObjectTests.cpp",
-          "line": 94
+          "line": 99
         }
       ]
     }

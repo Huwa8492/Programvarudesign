@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Game.cpp" "CMakeFiles/GameEngineLib.dir/Game.cpp.o" "gcc" "CMakeFiles/GameEngineLib.dir/Game.cpp.o.d"
   "/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/GameObject.cpp" "CMakeFiles/GameEngineLib.dir/GameObject.cpp.o" "gcc" "CMakeFiles/GameEngineLib.dir/GameObject.cpp.o.d"
   "/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/InteractWithObjectController.cpp" "CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.o" "gcc" "CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.o.d"
   "/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Interactions.cpp" "CMakeFiles/GameEngineLib.dir/Interactions.cpp.o" "gcc" "CMakeFiles/GameEngineLib.dir/Interactions.cpp.o.d"

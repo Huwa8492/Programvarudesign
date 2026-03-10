@@ -1,2 +1,2 @@
-/usr/bin/ar qc libGameEngineLib.a CMakeFiles/GameEngineLib.dir/GameObject.cpp.o CMakeFiles/GameEngineLib.dir/Scene.cpp.o CMakeFiles/GameEngineLib.dir/Interactions.cpp.o CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.o
+/usr/bin/ar qc libGameEngineLib.a CMakeFiles/GameEngineLib.dir/GameObject.cpp.o CMakeFiles/GameEngineLib.dir/Scene.cpp.o CMakeFiles/GameEngineLib.dir/Interactions.cpp.o CMakeFiles/GameEngineLib.dir/InteractWithObjectController.cpp.o CMakeFiles/GameEngineLib.dir/Game.cpp.o
 /usr/bin/ranlib libGameEngineLib.a

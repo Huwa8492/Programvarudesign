@@ -4,9 +4,7 @@
 .DS_Store
 Thumbs.db
 
-# =========================
-# Visual Studio (De andras miljö)
-# =========================
+
 .vs/
 *.user
 *.userosscache
@@ -16,9 +14,6 @@ Thumbs.db
 *.opendb
 *.sqlite
 
-# =========================
-# Visual Studio Code (Din miljö)
-# =========================
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -26,10 +21,17 @@ Thumbs.db
 !.vscode/extensions.json
 *.code-workspace
 
-# =========================
-# Byggfiler och paket (Om ni kör C# / .NET)
-# =========================
+
 bin/
 obj/
 TestResults/
 *.log
+
+# Ignorera CMake's byggmapp
+build/
+
+# Ignorera Mac-specifika skräpfiler
+.DS_Store
+
+# Ignorera eventuella lokala VS Code-inställningar
+.vscode/

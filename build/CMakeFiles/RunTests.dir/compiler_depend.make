@@ -823,6 +823,7 @@ CMakeFiles/RunTests.dir/InteractWithObjectTests.cpp.o: /Users/hugowaldem/Documen
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
+  /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Game.hpp \
   /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/GameObject.hpp \
   /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/InteractWithObjectController.hpp \
   /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/InteractionType.hpp \
@@ -878,6 +879,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h:
 /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/InteractWithObjectController.hpp:
 
 /Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/GameObject.hpp:
+
+/Users/hugowaldem/Documents/Programvarudesign/Programvarudesign/Game.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h:
 
