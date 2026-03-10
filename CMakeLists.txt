@@ -39,3 +39,15 @@ target_link_libraries(
 
 include(GoogleTest)
 gtest_discover_tests(RunTests)
+
+add_executable(
+  MyGame
+  main.cpp
+  ConsoleUI.cpp
+)
+
+target_link_libraries(
+  MyGame
+  PRIVATE
+  GameEngineLib
+)
